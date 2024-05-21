@@ -44,7 +44,7 @@ install.packages(“hmer”)
 ```
 - [From within R] Building TBMod tarball, using the relevant filepath and filename (here I am using tbmod_3.6.1.tar.gz):
 ```R
-install.packages(here("tbmod-rpackage", "tbmod_3.4.8.tar.gz"), repos = NULL, type = "source")
+install.packages(here("tbmod-rpackage", "tbmod_3.6.1.tar.gz"), repos = NULL, type = "source")
 ```
 - [From within R] Load TBMod and verify the correct version has been installed:
 ```R
@@ -52,6 +52,8 @@ library("tbmod")
 packageVersion("tbmod")
 ```
 
+
+----
 
 Project files: 
 
