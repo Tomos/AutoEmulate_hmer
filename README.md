@@ -52,10 +52,17 @@ library("tbmod")
 packageVersion("tbmod")
 ```
 
+**4) Running the ComplexIND_em.sh script**
+
+[from the Cirrus cluster] The submission of the ComplexIND_em.sh takes the conda environment as the first argument:
+```bash
+sbatch ComplexIND_em.sh cali_env
+```
+(This will call the AutoEmulateRerun.R script, which will run TBMod, which in turn uses the directory structure within countries/)
 
 ----
 
-Project files: 
+**Project files:** 
 
 Files used to run IND model:
 1. R	       = "CheckTargetHits.R"
@@ -69,7 +76,3 @@ IND XML inputs are stored in countries/IND/data. Includes:
 3. all_contacts_2021.txt
 4. M72_scaleup_med_prev_rate.txt
 
-Files used to plot stocks outputs stored under SubclinicalTB-Vx folder:
-1. calling_script.R
-2. tbmod_stocks_plotting_funcs.R
-3. filters3.csv
