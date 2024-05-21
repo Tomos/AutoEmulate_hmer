@@ -1,0 +1,4 @@
+INFO  [2024-05-21 12:24:46] This is AutoEmulate version 5.5.3 (Deja Vu)
+INFO  [2024-05-21 12:24:46] Finished preliminary setup. Beginning first model runs.
+FATAL [2024-05-21 16:08:12] Model runs failed: Error: error in fraction.by.age.at.start(): data frame with initial TB distribution required 
+

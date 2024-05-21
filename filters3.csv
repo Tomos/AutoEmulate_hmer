@@ -1,0 +1,4 @@
+filter.number,stocks.file.path,country.code,tb.filter,hiv.filter,ses.filter,risk.filter,vx.filter,age.from.filter,age.thru.filter,denominator.row,multiplier
+1,countries/IND/output/[IND][][2024-05-16_15h31m04s][9db4387941708f34276acda401690bc5][3_6_1][XMLinput_target][stocks].txt,IND,Dscount,all,all,all,"never,vac,prev",0,99,2,100000
+2,countries/IND/output/[IND][][2024-05-16_15h31m04s][9db4387941708f34276acda401690bc5][3_6_1][XMLinput_target][stocks].txt,IND,"S,C,I,Dn,Ds,Dc,T,Rt,R",all,all,all,"never,vac,prev",0,99,NA,NA
+3,countries/IND/output/[IND][][2024-05-16_15h31m04s][9db4387941708f34276acda401690bc5][3_6_1][XMLinput_target][stocks].txt,IND,"Ds,Dc",all,all,all,"never,vac,prev",0,99,2,100000

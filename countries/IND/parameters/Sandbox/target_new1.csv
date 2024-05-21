@@ -1,0 +1,2 @@
+country,year,xVXa,xSES,xRISK,xHIV,xTB,xtype,xcause,yVXa,ySES,yRISK,yHIV,yTB,ytype,ycause,fn,age_from,age_thru,value,lo,hi,err,name,type
+IND,2015,all,all,all,all,"Ds, Dc",stock,NA,all,all,all,all,all,stock,NA,1e5*x/y,0,99,315.1468923,210.8245515,528.9734359,159.0744422,TB_prev_0_99,prev

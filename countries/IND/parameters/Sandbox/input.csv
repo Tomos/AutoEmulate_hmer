@@ -1,0 +1,17 @@
+﻿name,unique.name,xpath,VXa.stage,SES.stage,RISK.stage,HIV.stage,age.group,dist,mean,shape,min,max,choose
+clinsub,clinsub,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.59,NA,0.46,0.72,TRUE
+infclr,infclr,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,2.115,NA,0.93,3.3,TRUE
+infmin,infmin,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.135,NA,0.04,0.23,TRUE
+infsub,infsub,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.055,NA,0.01,0.1,TRUE
+lambda,lambda,//TB/TB.transmission/TB.parameter,,,,,,uniform,0.0034,NA,0,0.0068,TRUE
+minrec,minrec,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.185,NA,0.14,0.23,TRUE
+minsub,minsub,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.245,NA,0.21,0.28,TRUE
+multiplier,multiplier,//TB/seeded.infections,NA,NA,NA,NA,NA,uniform,0.95,NA,0,1.9,TRUE
+muTB,muTB,//TB/TB.progression/TB.parameter,,,,,,uniform,0.33,NA,0.28,0.38,TRUE
+p,p,//TB/TB.transmission/TB.parameter,,,,,,uniform,0.78,NA,0.7,0.86,TRUE
+r,r,//TB/TB.transmission/TB.parameter,,,,,,uniform,3.205,NA,2.14,4.27,TRUE
+relmin,relmin,//TB/TB.progression/TB.parameter,,,,,,uniform,0.005,NA,0,0.01,TRUE
+relsub,relsub,//TB/TB.progression/TB.parameter,,,,,,uniform,0.005,NA,0,0.01,TRUE
+subclin,subclin,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,0.75,NA,0.56,0.94,TRUE
+submin,submin,//TB/TB.progression/TB.parameter,NA,NA,NA,NA,NA,uniform,1.635,NA,1.24,2.03,TRUE
+t,t,//TB/TB.infectivity/TB.parameter,,,,,,uniform,0.81,NA,0.62,1,TRUE
